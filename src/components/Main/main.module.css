@@ -1,10 +1,18 @@
 .Main{
     display: flex;
-    margin:6% 0;
-    padding-left: 2em;
-     height: 100vh;
-    /*width: 100vw; */
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+    height: 100%;
+    padding-top: 2em;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+    background-color: #93E79B ;
+    color: white;
+    align-items: center;
+    overflow-wrap: break-word;
+
+
     
 }
 .fadeInLeft{-webkit-animation:fade-in-left 4s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both}

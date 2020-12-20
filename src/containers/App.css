@@ -1,9 +1,10 @@
 .App {
-  
+  display: flex;
   font-family: 'Montserrat';
   text-align: center;
-  background-color: #93E79B ;
-  color: white;
-
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: normal;
+  scroll-behavior: smooth;
 }
 
