@@ -1,0 +1,119 @@
+.header{
+    display: flex;
+    font-size: 22px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.header .leftHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    padding-left: 1%;
+}
+.sideMenu{
+    display: none;
+}
+.sideMenuIcon{
+    width: 60px; 
+    margin-left: 5%;
+   
+    border-radius: 0.3em;
+}
+.logo{
+    display: inline-block;
+    padding-left: 1%;
+}
+.title{
+   display: inline;
+   margin-left: 3%;
+   font-size: 50px;
+}
+ .menu{
+ 
+    display: flex;
+    justify-content:space-evenly;
+    width:40%;
+}
+.button{
+    border:none;
+    background-color: #93E79B;
+    color:white;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-right: 1%;
+    margin:3px ;
+    outline: none;
+    transition: all 120ms ease-out;
+    
+}
+.button:hover{
+    background-color: white;
+    font-size: 24px;
+    color: #93E79B;
+    border-radius: 7px;
+    border:2px solid white;
+}
+.button:active{
+    font-size: 20px;
+}
+.sideBar{
+    display: none;
+}
+
+@media (max-width:962px){
+    .header{
+        justify-content: center;
+    }
+    .menu{
+        display:none;
+    }
+
+    .sideMenu{
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        height: 100%;
+        background-color: #93E79B;
+    }
+    .title{
+        display: none;
+    }
+    .sideMenuOptions{
+        outline: none;
+        font-size: 32px;
+        padding: 3px;
+        background-color: #93E79B;
+        margin-bottom: 8%;
+        color:white;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-align: center;
+        padding-right: 1%;
+        padding: 3px;
+        border:none;
+        border-bottom:2px solid rgb(255, 255, 255);
+
+    }
+    .backArrow{
+        width: 20px;
+        height: 20px;
+        padding-right:8% ;
+    }
+    .sideBar{
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        justify-self: start;
+
+    }
+}
