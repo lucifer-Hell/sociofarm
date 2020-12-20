@@ -1,8 +1,25 @@
 .Main{
     display: flex;
-    margin: 0;
-    /* height: 100vh;
-    width: 100vw; */
-    justify-content: center;
-    align-content: center;
+    margin:6% 0;
+    padding-left: 2em;
+     height: 100vh;
+    /*width: 100vw; */
+    justify-content: space-between;
+    
 }
+.fadeInLeft{-webkit-animation:fade-in-left 4s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both}
+
+ @-webkit-keyframes fade-in-left{0%{-webkit-transform:translateX(-50px);transform:translateX(-50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes fade-in-left{0%{-webkit-transform:translateX(-50px);transform:translateX(-50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+ .fadeInRight{-webkit-animation:fade-in-right .8s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-right .8s cubic-bezier(.39,.575,.565,1.000) both}
+ @-webkit-keyframes fade-in-right{0%{-webkit-transform:translateX(50px);transform:translateX(50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes fade-in-right{0%{-webkit-transform:translateX(50px);transform:translateX(50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+ .fadeInBottom{-webkit-animation:fade-in-bottom 1s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-bottom 1s cubic-bezier(.39,.575,.565,1.000) both}
+
+ @-webkit-keyframes fade-in-bottom{0%{-webkit-transform:translateY(50px);transform:translateY(50px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@keyframes fade-in-bottom{0%{-webkit-transform:translateY(50px);transform:translateY(50px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}
+
+ .onHoverFadeInBottom:hover{
+    -webkit-animation:fade-in-bottom 1s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-bottom 1s cubic-bezier(.39,.575,.565,1.000) both
+
+ }
+ @-webkit-keyframes fade-in-bottom{0%{-webkit-transform:translateY(50px);transform:translateY(50px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@keyframes fade-in-bottom{0%{-webkit-transform:translateY(50px);transform:translateY(50px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}
