@@ -1,14 +1,17 @@
 .authBoard{
     display: flex;
     flex-direction: column;
+    align-self: center;
     width :60%;
     height: 70%;
     background-image: url("./background.jpeg");
     background-position: center;
     background-size: cover;
+    background-image: url("https://saiplatform.org/wp-content/uploads/2019/02/project-efs-1920x705.jpg");
     background-color: rgb(125, 226, 158);
     box-shadow: 2px 4px 19px 0px rgba(0,0,0,0.49);
-    border-radius: 3%;
+    width: 100%;
+    
     justify-content: flex-start;
     align-items: center;
     text-align: center;
