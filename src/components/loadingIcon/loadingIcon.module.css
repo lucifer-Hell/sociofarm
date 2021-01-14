@@ -1,0 +1,38 @@
+.main{
+   width: 30px;
+   height: 30px;
+   padding: 2%;
+    border-top: 4px solid yellow;
+    border-bottom: 4px solid green;
+    border-left:4px solid red;
+    border-right: 4px solid salmon;
+    border-radius: 100%;
+    background-color: rgb(54, 236, 69);
+    margin: 3%;
+}
+
+.rotateCenter {
+	-webkit-animation: rotate-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) 0.5s infinite both;
+	        animation: rotate-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) 0.5s infinite both;
+}
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
